@@ -1,4 +1,4 @@
-# Hotel_Analysis_Project--Python
+# Atliq Hotel Analysis Project -- Python
 
 ## **Problem Statement:**
 
@@ -24,23 +24,21 @@ The goal of this project is to conduct a comprehensive analysis of the hotel ind
 5. Key Insights Summary
 6. Recommendations
 
-- Data Import and Exploration
+- Data Import & Exploration: We started by importing datasets such as bookings, hotels, and room categories. Initial exploration helped in understanding the structure and quality of the data.
   
-The data analysis process begins with Data Import and Exploration. This involves importing datasets using Pandas, understanding the structure and content of each dataset, and performing initial exploratory data analysis (EDA) to get a preliminary sense of the data.
-
-- Data Cleaning
+- Data Cleaning: Addressed missing values, removed outliers, and corrected data inconsistencies to ensure accurate analysis.
   
-Next is Data Cleaning, where the focus is on handling missing values, ensuring consistency in data types, and addressing any data quality issues identified during the exploration phase.
-
-- Data Transformation
+- Data Transformation: Created new variables like occupancy percentage to facilitate deeper analysis. This step also involved merging datasets for a comprehensive view.
   
-Following cleaning, Data Transformation is carried out. This step includes merging dimension and fact tables for a comprehensive analysis, creating new features if necessary, and preparing the data by aggregating and transforming it to fit analytical needs.
-
-- Analysis Insights
+- Data Insights & Visualization: Key metrics like occupancy rate, revenue realized, and booking patterns were analyzed and visualized using Python libraries.
   
-Finally, in the Analysis Insights phase, Pandas’ groupby and merge functions are utilized to uncover valuable insights. This analysis includes examining booking trends, revenue patterns, and expense distributions, identifying key drivers of business performance, and providing actionable insights to support strategic decision-making.
+- Summary & Recommendations: The analysis provided actionable insights which were summarized and included strategic recommendations to address the identified challenges.
 
-
+# Tools & Functions Used:
+- Pandas: Data manipulation and analysis, including groupby, merge, and describe.
+- Matplotlib: Visualization of data insights through bar charts, pie charts, and line plots.
+- NumPy: Handling numerical operations and creating new variables like occupancy percentage.
+- Data Cleaning Techniques: Addressed missing data, corrected formats, and removed outliers to ensure data quality.
 
 # Key Insights
 **Average Occupancy by Room Type**
@@ -103,3 +101,13 @@ Finally, in the Analysis Insights phase, Pandas’ groupby and merge functions a
    - Tailor marketing campaigns based on historical data to effectively target high-potential markets and improve overall occupancy and revenue.
 
 ## Key Learnings
+- Data Cleaning: Identifying and handling outliers and inconsistencies is crucial for accurate insights.
+
+- Visualization: Effective use of Python’s visualization libraries (Matplotlib, Pandas) is key to presenting data in an understandable format.
+
+- Strategic Analysis: Merging datasets and creating new metrics can uncover hidden patterns that are crucial for decision-making.
+
+# Conclusion
+This project was a great learning experience in applying data analysis techniques to solve real-world business problems. The insights gained have the potential to drive strategic decisions and improve business outcomes for Atliq Grands.
+
+
